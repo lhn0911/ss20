@@ -1,0 +1,15 @@
+let pi = 3.14;
+let R1 = +prompt("Nhập bán kính cdai hcn:");
+let R2= +prompt("Nhập bán kính crong hcn:");
+let C1 = 2 * pi * R1;
+let S1 = pi * R1 * R1;
+let C2 = 2 * pi * R2;
+let S2 = pi * R2 * R2;
+let C3 = (R1+R2)*2;
+let S3 = R1*R2;
+console.log('Chu vi htron 1 bằng:' + C1);
+console.log('Diện tích htron 1 bằng:' + S1);
+console.log('Chu vi htron 2 bằng:' + C2);
+console.log('Diện tích htron 2 bằng:' + S2);
+console.log('Chu vi hcn bằng:' + C3);
+console.log('Diện tích hcn bằng:' + S3);

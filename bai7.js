@@ -1,0 +1,14 @@
+let dai = +prompt("Nhập chiều dài");
+let rong = +prompt("Nhập chiều rộng");
+let P = ( dai + rong) * 2;
+let S = dai * rong;
+console.log('Chu vi hcn bằng:' + P);
+console.log('Diện tích hcn bằng:' + S);
+let C = (2*3.14*rong);
+let D = (2*3.14*dai);
+let E = (rong*rong*3.14);
+let F = (dai *dai*3.14);
+console.log('Nếu bkinh htron là chiều rộng hcn '+'=>'+'Chu vi hình tròn bằng:' +C);
+console.log('Nếu bkinh htron là chiều rộng hcn '+'=>'+'Diện tích tròn bằng:' + E);
+console.log('Nếu bkinh htron là chiều dài hcn '+'=>'+'Chu vi tròn bằng:' + D);
+console.log('Nếu bkinh htron là chiều dài hcn '+'=>'+'Diện tích tròn bằng:' + F);
